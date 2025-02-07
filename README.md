@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the code and data for the project **Modeling Co-Infections of Tuberculosis with HIV**. The project aims to develop a mathematical model that captures the interactions between Tuberculosis (TB) and HIV across different countries. We use a compartmental **SLIRS model** with separate compartments for HIV-positive and HIV-negative individuals to analyze the transmission dynamics of TB and its co-infections with HIV. The modeling approach is based on **Ordinary Differential Equations (ODE)**, and we perform **Bayesian parameter optimization** to estimate key parameters governing the disease dynamics. Refer to the complete [Project Report](https://drive.google.com/file/d/1T0NR-2HJ2N8Zw2Wt9Q28wn-mKfUp_M8r/view?usp=sharing) for more details.
+This repository contains the code and data for the project **Modeling Co-Infections of Tuberculosis with HIV**. The project aims to develop a mathematical model that captures the interactions between Tuberculosis (TB) and HIV across different countries. We use a compartmental **SLIRS model** with separate compartments for HIV-positive and HIV-negative individuals to analyze the transmission dynamics of TB and its co-infections with HIV. The modeling approach is based on **Ordinary Differential Equations (ODE)**, and we perform **Bayesian parameter optimization** to estimate key parameters governing the disease dynamics. Refer to the complete **[Project Report](https://drive.google.com/file/d/1T0NR-2HJ2N8Zw2Wt9Q28wn-mKfUp_M8r/view?usp=sharing)** for more details.
 
 
 
@@ -15,9 +15,9 @@ This repository contains the code and data for the project **Modeling Co-Infecti
 
 ## Methodology
 
-The **modeling approach** classifies the population into **Susceptible (S), Latent Infected (L), Infected (I), and Recovered (R)** compartments. Each compartment is further divided into **HIV-positive and HIV-negative** subgroups, leading to a total of 8 compartments. Transmission, activation, recovery, and immunity loss rates are considered for both populations.
+The **modeling approach** classifies the population into **Susceptible (S), Latent Infected (L), Infected (I)**, and **Recovered (R)** compartments. Each compartment is further divided into **HIV-positive** and **HIV-negative** subgroups, leading to a total of 8 compartments. Transmission, activation, recovery, and immunity loss rates are considered for both populations.
 
-The **data sources** used in this project include datasets from the World Health Organization (WHO) on TB and HIV and statistics from Our World in Data. These sources provide reliable global health information necessary for our modeling and analysis.
+The **data sources** used in this pr**oject include datasets from the World Health Organization (WHO) on TB and HIV and statistics from Our World in Data. These sources provide reliable global health information necessary for our modeling and analysis.
 
 For **parameter estimation**, we employ **Bayesian inference using Markov Chain Monte Carlo (MCMC) methods**. The model parameters are estimated separately for each country, allowing for an inter-country comparison of TB and HIV transmission dynamics.
 
@@ -97,7 +97,7 @@ Ensure that all dependencies are correctly set up before running the scripts.
 
 ## Acknowledgments
 
-This project was developed in collaboration with **Ali Parsaee** and **Rajkumar Patel**, under the guidance of Prof. **Marie Varughese**.
+This project was developed in collaboration with **[Ali Parsaee](https://www.linkedin.com/in/ali-parsaee/)** and **[Rajkumar Patel](https://www.linkedin.com/in/rajkumarpatel96/)**, under the guidance of **Prof. Marie Varughese** at the University of Alberta.
 
 
 
