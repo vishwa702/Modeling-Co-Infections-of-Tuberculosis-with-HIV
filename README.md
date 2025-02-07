@@ -25,6 +25,28 @@ The **sensitivity analysis** is performed using **Global Sensitivity Analysis wi
 
 Our **intervention strategies** focus on two primary aspects: reducing the HIV transmission rate $\delta$  through awareness programs and reducing the TB transmission rate $\beta$ through improved healthcare policies. We simulate these interventions to assess their effectiveness in controlling TB and HIV spread.
 
+## Figures
+
+ ![Model Diagram](Figures/Model%20Diagram.png)
+ *Figure 1. Model Diagram*
+
+   
+
+     
+
+![EPV](Figures/Estimated%20Parameter%20Values%20(Log%20Scale).png)
+*Figure 2: Estimated Parameter Values (Log Scale)*
+
+
+![SA](Figures/Sesitivity%20Analysis%20(Log%20Scale,%20Australia).png)
+*Figure 3: Sensitivity Analysis (Log Scale, Australia)*
+
+![SIB](Figures/Intervention%20in%20Beta.png)
+*Figure 4: Simulations of Intervention on Beta (Australia)*
+
+![SID](Figures/Intervention%20in%20Delta.png)
+*Figure 5: Simulations of Intervention on Delta (Australia)*
+
 ## Results
 
 - The **TB transmission rate $\beta$** is the most critical factor in determining the spread of TB.
