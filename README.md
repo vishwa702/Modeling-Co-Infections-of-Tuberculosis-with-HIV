@@ -17,7 +17,7 @@ This repository contains the code and data for the project **Modeling Co-Infecti
 
 The **modeling approach** classifies the population into **Susceptible (S), Latent Infected (L), Infected (I)**, and **Recovered (R)** compartments. Each compartment is further divided into **HIV-positive** and **HIV-negative** subgroups, leading to a total of 8 compartments. Transmission, activation, recovery, and immunity loss rates are considered for both populations.
 
-The **data sources** used in this pr**oject include datasets from the World Health Organization (WHO) on TB and HIV and statistics from Our World in Data. These sources provide reliable global health information necessary for our modeling and analysis.
+The **data sources** used in this project include datasets from the World Health Organization (WHO) on TB and HIV and statistics from Our World in Data. These sources provide reliable global health information necessary for our modeling and analysis.
 
 For **parameter estimation**, we employ **Bayesian inference using Markov Chain Monte Carlo (MCMC) methods**. The model parameters are estimated separately for each country, allowing for an inter-country comparison of TB and HIV transmission dynamics.
 
